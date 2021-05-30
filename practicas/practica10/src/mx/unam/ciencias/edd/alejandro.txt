@@ -1,0 +1,45 @@
+Diccionario(int tam, Picadillo p) {
+	picadillo = p;
+	mascara = tam < MIN_N ? mascara(MIN_N) : mascara(tam);
+	entradas = nuevoArreglo(mascara + 1);
+}
+
+Diccionario(int tam) {
+	this(tam, (K o) -> o.hashCode(););
+}
+
+private int mascara(int m) {
+	int i = 1;
+	while(i <= m + 1)
+		i = (i<<1) | 1;
+	return i;
+}
+
+private int mascara(int m) {
+	int i = 1;
+	while(i <= m)
+		i = (i<<1) | 1;
+	i = (i<<1) | 1;
+	return i;
+} 
+
+public void agrega(K llave, V valor) {
+	int indice = calculaIndice(llave);
+	Lista<Entrada> l = getLista(indice);
+	Entrada e = buscaEntrada(llave, l);
+	if (e != nul)
+		e.valor = valor;
+	else {
+		e = newEntrada(llave, valor);
+		l.agregaFinal(e);
+		elementos++;
+	}
+	if (carga() >= MAXIMA_CARGA) /* Usar comparador de la clase double, ya que pueden darse errores en la comparacion usando >= */
+		crecer();
+}
+
+private int calculaIndice(K llave) {
+	return picadillo.picadillo(llave) & mascara;
+
+private int calculaIndice(K llave)
+aplicamos picadillo y hacemos un ant de bits con la mascara y devolvemos el entero

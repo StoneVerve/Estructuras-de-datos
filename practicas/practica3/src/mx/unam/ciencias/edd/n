@@ -1,0 +1,110 @@
+if (esVacio())
+    		return;
+    	if (raiz.elemento.equals(elemento) && elementos == 1) {
+    		raiz = null;
+    		ultimoAgregado = null;
+    		this.elementos--;
+    		return;
+    	}
+    	Cola<ArbolBinario<T>.Vertice> cola = new Cola<>();
+    	cola.mete(raiz);
+    	Vertice aux;
+    	boolean cambio = false;
+    	do {
+    		aux = cola.saca();
+    		if (aux.izquierdo != null)
+    			cola.mete(aux.izquierdo);
+    		if (aux.derecho != null)
+    			cola.mete(aux.derecho);
+    		if (aux.elemento.equals(elemento))
+    			aux.elemento = ultimoAgregado.elemento;
+    			cambio = true;
+    	} while ((!cola.esVacia()) && (cola.mira() != ultimoAgregado));
+    	if ((cambio == false && ultimoAgregado.elemento.equals(elemento)) ||
+    		cambio == true) {
+    		if (ultimoAgregado.padre.izquierdo == ultimoAgregado) {
+    			ultimoAgregado.padre.izquierdo = null;
+    		} else { 
+    			ultimoAgregado.padre.derecho = null;
+    		}
+    		ultimoAgregado = aux;
+    		this.elementos--;
+    	}
+    
+    
+    
+    
+    if(this.elemento.equals(a.elemento)) {
+        		
+        		if (this.izquierdo == a.izquierdo && this.derecho == a.derecho)
+        			return true;
+        	
+        		else if (this.izquierdo == null && a.izquierdo == null)
+        			return this.derecho.comparacion(a.derecho);
+        			
+        		else if (this.derecho == null && a.derecho == null)
+        			return this.izquierdo.comparacion(a.izquierdo);
+        			
+        		else if (this.izquierdo != null && a.izquierdo != null &&
+        				 this.derecho != null && a.derecho != null) {
+        			return (this.izquierdo.comparacion(a.izquierdo) &&
+        					this.derecho.comparacion(a.derecho));
+        			
+        		} else 
+        			return false;
+        			
+        	} else
+        		return false;
+        }
+        
+        
+      
+ @Override public void elimina(T elemento) {
+    	if (esVacio())
+    		return;
+    	Vertice aux = buscaElimina(raiz, elemento);
+    	if (aux != null) {
+    		Vertice act;
+    		if (aux.izquierdo == null && aux.derecho == null) {
+    			if (aux == raiz) {
+    				raiz = null;
+    				aux = raiz;
+    			} else {
+    				act = aux;
+    				aux = aux.padre;
+    				if (act.padre.izquierdo == act) 
+    					act.padre.izquierdo = null;
+    				else 
+    					act.padre.derecho = null;
+    			}
+    		} else if (aux.izquierdo != null) {
+    			act = maximoEnSubarbol(aux.izquierdo);
+    			aux.elemento = act.elemento;
+    			if (act.izquierdo != null) {
+    				act.izquierdo.padre = act.padre;
+    				if (act.padre.izquierdo == act) 
+    					act.padre.izquierdo = act.izquierdo;
+    				else 
+    					act.padre.derecho = act.izquierdo;
+    			} else { 
+    				if (act.padre.izquierdo == act)
+    					act.padre.izquierdo = null;
+    				else
+    					act.padre.derecho = null;
+    			}
+    		} else {
+    			aux.derecho.padre = aux.padre;
+    			if (aux.padre != null) {
+    				if (aux.padre.izquierdo == aux)
+    					aux.padre.izquierdo = aux.derecho;
+    				else
+    					aux.padre.derecho = aux.derecho;
+    			}
+    		}
+    		ultimoAgregado = aux;
+    		elementos--;
+    	} else
+    		return;
+    		
+    				
+    }

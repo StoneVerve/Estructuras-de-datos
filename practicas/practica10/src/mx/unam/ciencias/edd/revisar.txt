@@ -1,0 +1,37 @@
+/* Construye un nuevo iterador, auxiliándose de las listas del
+         * diccionario. */
+        public Iterador() {
+        	iterador = conseguirElem().iteradorLista();
+        	
+        }
+        
+        private Iterator<Diccionario<K,V>.Entrada> buscaLista(int ini) {
+        	for(indice = ini; indice < entradas.length; indice++) {
+            	if (entradas[indice] != null) {
+        			indice++;
+        			return entradas[indice - 1].iteradorLista();
+        		}
+        	}
+        	return null;
+        }
+
+        /* Nos dice si hay un siguiente elemento. */
+        public boolean hasNext() {
+        	if (iterador == null)
+        		return false;
+        	else 
+        		return (iterador.hasNext() || buscaLista(indice) != null);
+        }
+
+        /* Regresa el siguiente elemento. */
+        public V next() {
+        	if (!iterador.hasNext())
+        		iterador = buscaLista(indice); 
+     		return iterador.next().valor;	
+        }
+
+        /* No lo implementamos: siempre lanza una excepción. */
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
+    }

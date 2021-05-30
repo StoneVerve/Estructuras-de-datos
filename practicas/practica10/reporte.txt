@@ -1,0 +1,415 @@
+Buildfile: /home/dima/Dropbox/Estructuras de datos/practicas/practica10/build.xml
+
+compile.practica10:
+    [javac] Compiling 1 source file to /home/dima/Dropbox/Estructuras de datos/practicas/practica10/build
+
+practica10.jar:
+      [jar] Building jar: /home/dima/Dropbox/Estructuras de datos/practicas/practica10/practica10.jar
+
+test:
+    [junit] Running mx.unam.ciencias.edd.test.TestArbolAVL
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestArbolAVL
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 sec
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 sec
+    [junit] 
+    [junit] Testcase: testElimina took 0.029 sec
+    [junit] Testcase: testToString took 0.06 sec
+    [junit] Testcase: testGiraDerecha took 0.002 sec
+    [junit] Testcase: testGetAltura took 0.001 sec
+    [junit] Testcase: testAgrega took 0.003 sec
+    [junit] Testcase: testEquals took 0.003 sec
+    [junit] Testcase: testGiraIzquierda took 0.001 sec
+    [junit] Testcase: testConstructor took 0 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestArbolBinarioCompleto
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestArbolBinarioCompleto
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 sec
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 sec
+    [junit] 
+    [junit] Testcase: testElimina took 0.014 sec
+    [junit] Testcase: testEsVacio took 0.001 sec
+    [junit] Testcase: testVerticeGetDerecho took 0 sec
+    [junit] Testcase: testIteradorHasNext took 0.001 sec
+    [junit] Testcase: testVerticeGetPadre took 0 sec
+    [junit] Testcase: testBusca took 0.001 sec
+    [junit] Testcase: testRaiz took 0.001 sec
+    [junit] Testcase: testToString took 0.006 sec
+    [junit] Testcase: testVerticeEquals took 0 sec
+    [junit] Testcase: testVerticeToString took 0 sec
+    [junit] Testcase: testVerticeGet took 0 sec
+    [junit] Testcase: testVerticeGetIzquierdo took 0.001 sec
+    [junit] Testcase: testGetUltimoVerticeAgregado took 0.001 sec
+    [junit] Testcase: testContiene took 0.002 sec
+    [junit] Testcase: testIteradorNext took 0.001 sec
+    [junit] Testcase: testGetElementos took 0.001 sec
+    [junit] Testcase: testAgrega took 0.003 sec
+    [junit] Testcase: testVerticeHayDerecho took 0 sec
+    [junit] Testcase: testEquals took 0 sec
+    [junit] Testcase: testVerticeHayPadre took 0 sec
+    [junit] Testcase: testVerticeHayIzquierdo took 0 sec
+    [junit] Testcase: testProfundidad took 0.004 sec
+    [junit] Testcase: testIteradorRemove took 0.001 sec
+    [junit] Testcase: testIterator took 0.001 sec
+    [junit] Testcase: testConstructorColeccion took 0.008 sec
+    [junit] Testcase: testConstructor took 0 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 sec
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 sec
+    [junit] 
+    [junit] Testcase: testElimina took 0.02 sec
+    [junit] Testcase: testEsVacio took 0 sec
+    [junit] Testcase: testVerticeGetDerecho took 0 sec
+    [junit] Testcase: testIteradorHasNext took 0.003 sec
+    [junit] Testcase: testVerticeGetPadre took 0 sec
+    [junit] Testcase: testBusca took 0 sec
+    [junit] Testcase: testRaiz took 0 sec
+    [junit] Testcase: testToString took 0.035 sec
+    [junit] Testcase: testVerticeEquals took 0 sec
+    [junit] Testcase: testVerticeToString took 0 sec
+    [junit] Testcase: testVerticeGet took 0 sec
+    [junit] Testcase: testVerticeGetIzquierdo took 0 sec
+    [junit] Testcase: testGetUltimoVerticeAgregado took 0 sec
+    [junit] Testcase: testContiene took 0 sec
+    [junit] Testcase: testIteradorNext took 0.001 sec
+    [junit] Testcase: testGiraDerecha took 0.001 sec
+    [junit] Testcase: testGetElementos took 0 sec
+    [junit] Testcase: testAgrega took 0.001 sec
+    [junit] Testcase: testVerticeHayDerecho took 0 sec
+    [junit] Testcase: testEquals took 0.002 sec
+    [junit] Testcase: testVerticeHayPadre took 0 sec
+    [junit] Testcase: testGiraIzquierda took 0.001 sec
+    [junit] Testcase: testVerticeHayIzquierdo took 0 sec
+    [junit] Testcase: testProfundidad took 0.005 sec
+    [junit] Testcase: testIteradorRemove took 0.009 sec
+    [junit] Testcase: testIterator took 0.012 sec
+    [junit] Testcase: testConstructorColeccion took 0.001 sec
+    [junit] Testcase: testConstructor took 0 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestArbolRojinegro
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestArbolRojinegro
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 sec
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 sec
+    [junit] 
+    [junit] Testcase: testElimina took 0.029 sec
+    [junit] Testcase: testGetColor took 0 sec
+    [junit] Testcase: testToString took 0.014 sec
+    [junit] Testcase: testGiraDerecha took 0.001 sec
+    [junit] Testcase: testAgrega took 0.005 sec
+    [junit] Testcase: testEquals took 0.004 sec
+    [junit] Testcase: testGiraIzquierda took 0.003 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestArreglos
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestArreglos
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+    [junit] 
+    [junit] Testcase: testSelectionSort took 0.004 sec
+    [junit] Testcase: testBusquedaBinaria took 0.001 sec
+    [junit] Testcase: testQuickSort took 0.001 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestCola
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestCola
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec
+    [junit] 
+    [junit] Testcase: testEsVacia took 0.003 sec
+    [junit] Testcase: testMete took 0.001 sec
+    [junit] Testcase: testMira took 0.001 sec
+    [junit] Testcase: testSaca took 0 sec
+    [junit] Testcase: testEquals took 0.003 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestConjunto
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestConjunto
+    [junit] Tests run: 10, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.425 sec
+    [junit] Tests run: 10, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.425 sec
+    [junit] 
+    [junit] Testcase: testElimina took 0.012 sec
+    [junit] Testcase: testEsVacio took 0.008 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestConjunto.testEsVacio(TestConjunto.java:122)
+    [junit] 
+    [junit] Testcase: testUnion took 0.002 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.Conjunto.union(Conjunto.java:111)
+    [junit] 	at mx.unam.ciencias.edd.test.TestConjunto.testUnion(TestConjunto.java:177)
+    [junit] 
+    [junit] Testcase: testContiene took 0.002 sec
+    [junit] Testcase: testGetElementos took 0.001 sec
+    [junit] Testcase: testInterseccion took 0.002 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.Conjunto.interseccion(Conjunto.java:97)
+    [junit] 	at mx.unam.ciencias.edd.test.TestConjunto.testInterseccion(TestConjunto.java:147)
+    [junit] 
+    [junit] Testcase: testAgrega took 0.001 sec
+    [junit] Testcase: testEquals took 0.001 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestConjunto.testEquals(TestConjunto.java:104)
+    [junit] 
+    [junit] Testcase: testIterator took 0.004 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.test.TestConjunto.testIterator(TestConjunto.java:199)
+    [junit] 
+    [junit] Testcase: testConstructor took 0 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestDiccionario
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestDiccionario
+    [junit] Tests run: 14, Failures: 4, Errors: 5, Skipped: 0, Time elapsed: 0.437 sec
+    [junit] Tests run: 14, Failures: 4, Errors: 5, Skipped: 0, Time elapsed: 0.437 sec
+    [junit] 
+    [junit] Testcase: testElimina took 0.026 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestDiccionario.testElimina(TestDiccionario.java:123)
+    [junit] 
+    [junit] Testcase: testEsVacio took 0.009 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestDiccionario.testEsVacio(TestDiccionario.java:253)
+    [junit] 
+    [junit] Testcase: testColisionMaxima took 0.001 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.lang.NullPointerException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario.colisionMaxima(Diccionario.java:304)
+    [junit] 	at mx.unam.ciencias.edd.test.TestDiccionario.testColisionMaxima(TestDiccionario.java:192)
+    [junit] 
+    [junit] Testcase: testGet took 0.008 sec
+    [junit] Testcase: testCarga took 0.024 sec
+    [junit] Testcase: testColisiones took 0.005 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.lang.NullPointerException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario.colisiones(Diccionario.java:292)
+    [junit] 	at mx.unam.ciencias.edd.test.TestDiccionario.testColisiones(TestDiccionario.java:182)
+    [junit] 
+    [junit] Testcase: testValores took 0.012 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.Diccionario.valores(Diccionario.java:280)
+    [junit] 	at mx.unam.ciencias.edd.test.TestDiccionario.testValores(TestDiccionario.java:160)
+    [junit] 
+    [junit] Testcase: testContiene took 0.009 sec
+    [junit] Testcase: testGetElementos took 0.01 sec
+    [junit] Testcase: testAgrega took 0.023 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestDiccionario.testAgrega(TestDiccionario.java:57)
+    [junit] 
+    [junit] Testcase: testEquals took 0.006 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestDiccionario.testEquals(TestDiccionario.java:271)
+    [junit] 
+    [junit] Testcase: testLlaves took 0.02 sec
+    [junit] Testcase: testIterator took 0.022 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.test.TestDiccionario.testIterator(TestDiccionario.java:295)
+    [junit] 
+    [junit] Testcase: testConstructor took 0.001 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.lang.NullPointerException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario.colisiones(Diccionario.java:292)
+    [junit] 	at mx.unam.ciencias.edd.test.TestDiccionario.testConstructor(TestDiccionario.java:45)
+    [junit] 
+    [junit] Running mx.unam.ciencias.edd.test.TestFabricaPicadillos
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestFabricaPicadillos
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.224 sec
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.224 sec
+    [junit] 
+    [junit] Testcase: testGetInstanciaStringXOR took 0.176 sec
+    [junit] Testcase: testGetInstanciaStringGLib took 0.001 sec
+    [junit] Testcase: testGetInstanciaStringBJ took 0.002 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestGrafica
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestGrafica
+    [junit] Tests run: 23, Failures: 4, Errors: 6, Skipped: 0, Time elapsed: 0.814 sec
+    [junit] Tests run: 23, Failures: 4, Errors: 6, Skipped: 0, Time elapsed: 0.814 sec
+    [junit] 
+    [junit] Testcase: testElimina took 0.051 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.paraCadaVertice(Grafica.java:362)
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testElimina(TestGrafica.java:203)
+    [junit] 
+    [junit] Testcase: testEsVacio took 0 sec
+    [junit] Testcase: testTreyactoriaMinima took 0.001 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.asignaDistanciaInfinita(Grafica.java:521)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.inicializa(Grafica.java:482)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.trayectoriaMinima(Grafica.java:454)
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testTreyactoriaMinima(TestGrafica.java:488)
+    [junit] 
+    [junit] Testcase: testDesconecta took 0.031 sec
+    [junit] Testcase: testBfs took 0.006 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.recorrer(Grafica.java:414)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.bfs(Grafica.java:378)
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testBfs(TestGrafica.java:322)
+    [junit] 
+    [junit] Testcase: testDfs took 0.002 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.recorrer(Grafica.java:414)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.dfs(Grafica.java:393)
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testDfs(TestGrafica.java:355)
+    [junit] 
+    [junit] Testcase: testVerticeGetGrado took 0.015 sec
+    [junit] Testcase: testConectaInt took 0.12 sec
+    [junit] Testcase: testVerticeVecinos took 0.005 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testVerticeVecinos(TestGrafica.java:459)
+    [junit] 
+    [junit] Testcase: testGetVertices took 0.001 sec
+    [junit] Testcase: testGetPeso took 0.042 sec
+    [junit] Testcase: testGetAristas took 0.003 sec
+    [junit] Testcase: testSonVecinos took 0.054 sec
+    [junit] Testcase: testVerticeGetElemento took 0.001 sec
+    [junit] Testcase: testVertice took 0.025 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testVertice(TestGrafica.java:285)
+    [junit] 
+    [junit] Testcase: testContiene took 0.001 sec
+    [junit] Testcase: testConecta took 0.004 sec
+    [junit] Testcase: testDijkstra took 0 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.util.NoSuchElementException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario$Iterador.next(Diccionario.java:71)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.asignaDistanciaInfinita(Grafica.java:521)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.inicializa(Grafica.java:482)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.dijkstra(Grafica.java:537)
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testDijkstra(TestGrafica.java:511)
+    [junit] 
+    [junit] Testcase: testParaCadaVertice took 0.013 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testParaCadaVertice(TestGrafica.java:303)
+    [junit] 
+    [junit] Testcase: testAgrega took 0 sec
+    [junit] 	Caused an ERROR
+    [junit] null
+    [junit] java.lang.NullPointerException
+    [junit] 	at mx.unam.ciencias.edd.Diccionario.lambda$new$0(Diccionario.java:105)
+    [junit] 	at mx.unam.ciencias.edd.Diccionario.calculaIndice(Diccionario.java:147)
+    [junit] 	at mx.unam.ciencias.edd.Diccionario.get(Diccionario.java:219)
+    [junit] 	at mx.unam.ciencias.edd.Diccionario.contiene(Diccionario.java:235)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.contiene(Grafica.java:290)
+    [junit] 	at mx.unam.ciencias.edd.Grafica.agrega(Grafica.java:204)
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testAgrega(TestGrafica.java:72)
+    [junit] 
+    [junit] Testcase: testVerticeGetSetColor took 0.001 sec
+    [junit] Testcase: testIterator took 0.002 sec
+    [junit] 	FAILED
+    [junit] null
+    [junit] junit.framework.AssertionFailedError
+    [junit] 	at mx.unam.ciencias.edd.test.TestGrafica.testIterator(TestGrafica.java:391)
+    [junit] 
+    [junit] Testcase: testConstructor took 0 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestIndexable
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestIndexable
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec
+    [junit] 
+    [junit] Testcase: testGetValor took 0.002 sec
+    [junit] Testcase: testMete took 0 sec
+    [junit] Testcase: testCompareTo took 0.001 sec
+    [junit] Testcase: testIndexable took 0 sec
+    [junit] Testcase: testSetIndice took 0.001 sec
+    [junit] Testcase: testGetIndice took 0 sec
+    [junit] Testcase: testSetValor took 0 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestLista
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestLista
+    [junit] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.374 sec
+    [junit] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.374 sec
+    [junit] 
+    [junit] Testcase: testAgregaFinal took 0.004 sec
+    [junit] Testcase: testElimina took 0.002 sec
+    [junit] Testcase: testMergeSort took 0.004 sec
+    [junit] Testcase: testEsVacio took 0 sec
+    [junit] Testcase: testEliminaPrimero took 0.001 sec
+    [junit] Testcase: testIteradorHasNext took 0.001 sec
+    [junit] Testcase: testBusquedaLineal took 0.002 sec
+    [junit] Testcase: testGet took 0.001 sec
+    [junit] Testcase: testAgregaInicio took 0.001 sec
+    [junit] Testcase: testCopia took 0.001 sec
+    [junit] Testcase: testToString took 0.004 sec
+    [junit] Testcase: testIteradorStart took 0.001 sec
+    [junit] Testcase: testGetLongitud took 0 sec
+    [junit] Testcase: testEliminaUltimo took 0 sec
+    [junit] Testcase: testGetPrimero took 0.001 sec
+    [junit] Testcase: testContiene took 0 sec
+    [junit] Testcase: testIteradorNext took 0.001 sec
+    [junit] Testcase: testIteradorPrevious took 0.001 sec
+    [junit] Testcase: testIteradorEnd took 0 sec
+    [junit] Testcase: testReversa took 0 sec
+    [junit] Testcase: testGetElementos took 0 sec
+    [junit] Testcase: testIteradorHasPrevious took 0 sec
+    [junit] Testcase: testIndiceDe took 0.001 sec
+    [junit] Testcase: testAgrega took 0.001 sec
+    [junit] Testcase: testEquals took 0.001 sec
+    [junit] Testcase: testLimpia took 0.001 sec
+    [junit] Testcase: testGetUltimo took 0.001 sec
+    [junit] Testcase: testIteradorRemove took 0.001 sec
+    [junit] Testcase: testConstructor took 0.001 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestMonticuloMinimo
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestMonticuloMinimo
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec
+    [junit] 
+    [junit] Testcase: testElimina took 0.008 sec
+    [junit] Testcase: testEsVacio took 0.001 sec
+    [junit] Testcase: testIteradorHasNext took 0.002 sec
+    [junit] Testcase: testGet took 0 sec
+    [junit] Testcase: testEliminaElemento took 0 sec
+    [junit] Testcase: testContiene took 0.002 sec
+    [junit] Testcase: testIteradorNext took 0 sec
+    [junit] Testcase: testReordena took 0.004 sec
+    [junit] Testcase: testGetElementos took 0 sec
+    [junit] Testcase: testAgrega took 0.012 sec
+    [junit] Testcase: testIteradorRemove took 0.001 sec
+    [junit] Testcase: testIterator took 0.001 sec
+    [junit] Running mx.unam.ciencias.edd.test.TestPila
+    [junit] Testsuite: mx.unam.ciencias.edd.test.TestPila
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] 
+    [junit] Testcase: testEsVacia took 0.003 sec
+    [junit] Testcase: testMete took 0.001 sec
+    [junit] Testcase: testMira took 0.001 sec
+    [junit] Testcase: testSaca took 0.001 sec
+    [junit] Testcase: testEquals took 0.005 sec
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
