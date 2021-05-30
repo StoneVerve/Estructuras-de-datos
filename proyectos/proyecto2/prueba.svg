@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg width='2400.0' height='1600.0' fill='white'>
+<g>
+<line x1='1200.0' y1='70.0' x2='600.0' y2='385.0' stroke='black' stroke-width='3.0'  />
+<line x1='1200.0' y1='70.0' x2='1800.0' y2='385.0' stroke='black' stroke-width='3.0'  />
+<line x1='600.0' y1='385.0' x2='300.0' y2='770.0' stroke='black' stroke-width='3.0'  />
+<line x1='600.0' y1='385.0' x2='900.0' y2='770.0' stroke='black' stroke-width='3.0'  />
+<line x1='1800.0' y1='385.0' x2='1500.0' y2='770.0' stroke='black' stroke-width='3.0'  />
+<line x1='1800.0' y1='385.0' x2='2100.0' y2='770.0' stroke='black' stroke-width='3.0'  />
+<line x1='300.0' y1='770.0' x2='150.0' y2='1155.0' stroke='black' stroke-width='3.0'  />
+<line x1='300.0' y1='770.0' x2='450.0' y2='1155.0' stroke='black' stroke-width='3.0'  />
+<line x1='900.0' y1='770.0' x2='750.0' y2='1155.0' stroke='black' stroke-width='3.0'  />
+<line x1='1500.0' y1='770.0' x2='1350.0' y2='1155.0' stroke='black' stroke-width='3.0'  />
+<line x1='1500.0' y1='770.0' x2='1650.0' y2='1155.0' stroke='black' stroke-width='3.0'  />
+<line x1='2100.0' y1='770.0' x2='1950.0' y2='1155.0' stroke='black' stroke-width='3.0'  />
+<line x1='2100.0' y1='770.0' x2='2250.0' y2='1155.0' stroke='black' stroke-width='3.0'  />
+<line x1='1650.0' y1='1155.0' x2='1725.0' y2='1540.0' stroke='black' stroke-width='3.0'  />
+<circle cx='1200.0' cy='70.0' r='50.0' stroke='black' stroke-width='3.0' fill='black' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='1200.0' y='70.0' text-anchor='middle'>6</text>
+<circle cx='600.0' cy='385.0' r='50.0' stroke='black' stroke-width='3.0' fill='black' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='600.0' y='385.0' text-anchor='middle'>4</text>
+<circle cx='1800.0' cy='385.0' r='50.0' stroke='black' stroke-width='3.0' fill='black' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='1800.0' y='385.0' text-anchor='middle'>23</text>
+<circle cx='300.0' cy='770.0' r='50.0' stroke='black' stroke-width='3.0' fill='black' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='300.0' y='770.0' text-anchor='middle'>2</text>
+<circle cx='900.0' cy='770.0' r='50.0' stroke='black' stroke-width='3.0' fill='black' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='900.0' y='770.0' text-anchor='middle'>5</text>
+<circle cx='1500.0' cy='770.0' r='50.0' stroke='black' stroke-width='3.0' fill='red' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='1500.0' y='770.0' text-anchor='middle'>8</text>
+<circle cx='2100.0' cy='770.0' r='50.0' stroke='black' stroke-width='3.0' fill='red' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='2100.0' y='770.0' text-anchor='middle'>56</text>
+<circle cx='150.0' cy='1155.0' r='50.0' stroke='black' stroke-width='3.0' fill='red' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='150.0' y='1155.0' text-anchor='middle'>0</text>
+<circle cx='450.0' cy='1155.0' r='50.0' stroke='black' stroke-width='3.0' fill='red' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='450.0' y='1155.0' text-anchor='middle'>3</text>
+<circle cx='750.0' cy='1155.0' r='50.0' stroke='black' stroke-width='3.0' fill='red' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='750.0' y='1155.0' text-anchor='middle'>4</text>
+<circle cx='1350.0' cy='1155.0' r='50.0' stroke='black' stroke-width='3.0' fill='black' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='1350.0' y='1155.0' text-anchor='middle'>7</text>
+<circle cx='1650.0' cy='1155.0' r='50.0' stroke='black' stroke-width='3.0' fill='black' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='1650.0' y='1155.0' text-anchor='middle'>9</text>
+<circle cx='1950.0' cy='1155.0' r='50.0' stroke='black' stroke-width='3.0' fill='black' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='1950.0' y='1155.0' text-anchor='middle'>34</text>
+<circle cx='2250.0' cy='1155.0' r='50.0' stroke='black' stroke-width='3.0' fill='black' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='2250.0' y='1155.0' text-anchor='middle'>89</text>
+<circle cx='1725.0' cy='1540.0' r='50.0' stroke='black' stroke-width='3.0' fill='red' />
+<text fill='white' font-family='sans-serif' font-size='25.0' x='1725.0' y='1540.0' text-anchor='middle'>12</text>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+Tareas que soportan el build de ant:
+
+	clean: Elimina el archvio jar, la carpeta build con todos los archivos
+			de tipo *.class y la carpeta doc con la documentación de todas las 
+			clases
+	
+	compile: Compila todos los archivos *.java de la carpeta src/
+	
+	dist: Genera el archivo jar proyecto1.jar que realiza la tarea
+		descrita en http://aztlan.fciencias.unam.mx/~canek/2016-2-edd/proyecto1.html
+		
+	doc: Genera la documentación de todas los archivos .java en src/ y los guarda
+		en la carpeta doc/
+		
+La tarea default de ant es dist.
+
+El archivo proyecto1.jar realiza la tarea indicada en:
+http://aztlan.fciencias.unam.mx/~canek/2016-2-edd/proyecto1.html
+Respentando las reglas planteadas y operando con el comportamiento deseado.
+
+Se soporta la opción '-r' que invierte el orden del texto.
+ 
